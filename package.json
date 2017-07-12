@@ -4,6 +4,7 @@
   "description": "Produce a dependency tree map",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/walston/ng-tree/issues"
   },
-  "homepage": "https://github.com/walston/ng-tree#readme"
+  "homepage": "https://github.com/walston/ng-tree#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "pegjs": "^0.10.0"
+  }
 }
